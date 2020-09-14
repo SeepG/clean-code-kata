@@ -20,7 +20,7 @@ You can just try it on your own. If you need tips or help, either have a look at
 2. **Show Intent:** E.g. put the first conditional statement into a function `buttonWasClicked()` - you can then remove the comment.
 3. **Remove duplicated calls:** E.g: The three calls to `.animate` look pretty similar. Put them behind a parametrized function
 4. **Remove duplicated code:** Both of the lower `if`-bodies actually do the same thing, just on different elements. Extract a parametrized function as well
-5. **Make it read like a book:**: In the end if you managed to hide all functionality behind functions, compose those functions in the top of the call to make it read like a book - showing intent and WHAT it does instead of how.
+5. **Make it read like a book:**: In the end, if you managed to hide all functionality behind functions, compose those functions in the top of the call to make it read like a book - showing intent and WHAT it does instead of how.
 6. **Remove the lying comment:**: The Comment on top of the function actually says a lot that is not true. Read it again and realize what is it - then remove it. It's not needed!
 
 If you have any questions, don't hesitate to contact me for help!
